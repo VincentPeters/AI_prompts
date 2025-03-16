@@ -15,8 +15,7 @@ This framework provides a comprehensive approach to developing software projects
 ## Usage
 
 1. Use Claude Desktop with MCP server
-2. Upload the framework markdown files as tools
-3. Follow the tiered documentation process:
+2. Follow the tiered documentation process:
    - Development roadmap (project overview)
    - Feature documents (detailed specifications)
    - Task documents (implementation guidance)
