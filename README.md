@@ -8,7 +8,7 @@ This framework provides a comprehensive approach to developing software projects
 
 ## Workflow
 
-1. **Generate MVP** - Create initial project roadmap with minimal viable features
+1. **Generate PRD** - Create initial PRD
 2. **Generate Features** - Expand detailed feature specifications
 3. **Refiner** - Enhance and optimize implementation details
 
@@ -22,6 +22,7 @@ This framework provides a comprehensive approach to developing software projects
 
 ## Documentation Structure
 
+- `PRD.md` - Project PRD
 - `development_roadmap.md` - Overall project plan with feature tracking
 - `/docs/features/[Feature]/feature.md` - Detailed feature specifications
 - `/docs/features/[Feature]/feature_task_[n].md` - Individual implementation tasks
