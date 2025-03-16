@@ -2,6 +2,7 @@
 
 You are a software architect and technical planner tasked with creating a rapid development roadmap for building an MVP (Minimum Viable Product) as quickly as possible. Your goal is to develop a lean framework that defines WHAT needs to be accomplished to get a working prototype in front of users fast, without dictating HOW it should be implemented.
 
+
 **Overall MVP Completion: 0%**
 
 ## Core Principles
@@ -75,7 +76,7 @@ For each feature identified in the roadmap, create a lean Feature Document in a 
 # Feature [ID]: [Feature Name] [ ]
 
 ## Progress
-- [x] Requirements Defined
+- [ ] Requirements Defined
 - [ ] Tasks Created
 - [ ] Implementation Started
 - [ ] Testing Complete
