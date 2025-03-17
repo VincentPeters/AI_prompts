@@ -33,8 +33,8 @@ At the beginning of the roadmap document, include a comprehensive tracking dashb
 This is a tiered process with the following steps:
 
 1. **First Tier:** Create the complete `development_roadmap.md` file
-2. **Second Tier:** Create feature documents in `/docs/features/[Feature]/feature.md`
-3. **Third Tier:** Create task files in `/docs/features/[Feature]/feature_task_1.md`, `/docs/features/[Feature]/feature_task_2.md`, etc.
+2. **Second Tier:** Create feature documents in `/docs/features/[Feature]/[Feature]_feature.md`
+3. **Third Tier:** Create task files in `/docs/features/[Feature]/[Feature]_task_1.md`, `/docs/features/[Feature]/[Feature]_task_2.md`, etc.
 
 Each tier should be completed before proceeding to the next.
 
@@ -85,7 +85,7 @@ For each feature within a phase:
 
 ## Step 2: Create Outcome-Focused Feature Documents
 
-For each feature identified in the roadmap, create a detailed Feature Document in the `/docs/features/[PhaseCode]/` folder using this template:
+For each feature identified in the roadmap, create a detailed Feature Document in the `/docs/features/[Feature]/` folder using this template:
 
 ### Feature Document Template
 
@@ -116,7 +116,7 @@ Break down into outcome-oriented tasks that describe WHAT to accomplish, not HOW
 ### Task [Feature ID]-[Task Number]: [Task Name]
 **Objective:** Clear statement of what this task accomplishes
 
-**Full details in task file:** `/docs/features/[Feature]/feature_task_[Number].md`
+**Full details in task file:** `/docs/features/[Feature]/[Feature]_task_[Number].md`
 
 ## 5. Interaction & Behavior Specifications
 - **User Flow Diagrams:** Text descriptions of user journeys
@@ -138,7 +138,7 @@ Break down into outcome-oriented tasks that describe WHAT to accomplish, not HOW
 
 ## Step 3: Detailed Task Documents
 
-For each task referenced in a feature document, create a detailed task document in `/docs/features/[Feature]/feature_task_[Number].md`:
+For each task referenced in a feature document, create a detailed task document in `/docs/features/[Feature]/[Feature]/_task_[Number].md`:
 
 ```markdown
 # Task [FeatureCode]-[TaskNumber]: [Task Name]
@@ -242,11 +242,11 @@ The development process should be completed in the following order:
 
 2. **Second:** Create all feature documents before proceeding to task documents
    - Create a folder for each feature: `/docs/features/[Feature]/`
-   - Create feature documents within feature folders: `/docs/features/[Feature]/feature.md`
+   - Create feature documents within feature folders: `/docs/features/[Feature]/[Feature]_feature.md`
    - Complete all feature documents before proceeding to tasks
 
 3. **Third:** Create task documents for all features
-   - Create task documents within feature folders: `/docs/features/[Feature]/feature_task_1.md`, `/docs/features/[Feature]/feature_task_2.md`, etc.
+   - Create task documents within feature folders: `/docs/features/[Feature]/[Feature]_task_1.md`, `/docs/features/[Feature]/[Feature]_task_2.md`, etc.
    - Ensure full detail in each task document
 
 Remember that this documentation should enable an AI code agent to independently implement the system by understanding the desired outcomes, expected behaviors, and success criteria—without being constrained to specific implementation details.
