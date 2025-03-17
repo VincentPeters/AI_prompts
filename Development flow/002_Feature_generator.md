@@ -324,3 +324,10 @@ If filesystem tool is available:
 If filesystem tool is unavailable:
 - Provide the complete documents in the chat
 - Suggest that the user copy and save them manually
+
+# STEPS TO TAKE
+follow these very carefully. Make sure you understand the steps and the tools you are using. Make sure the task is completed before moving on to the next step.
+
+1. generate the roadmap
+2.Generate the feature documents, make sure to first generate ALL the feature documents before moving on to the next step. Create these in chronological order.
+3. Generate the task documents, make sure to first generate ALL the task documents before moving on to the next step. Create these in chronological order.
